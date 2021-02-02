@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    username: root
+    password: hyz32688341517
+    url: jdbc:mysql://localhost:3306/galicom?useUnicode=true&characterEncoding=utf8mb4&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  type-aliases-package: cn.edu.zucc.entity
+  mapper-locations: classpath:mapper/*xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    root: warn
+    cn.edu.zucc.galicom: info
+  file:
+    name: log/blog-pro.log
