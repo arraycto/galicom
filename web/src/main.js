@@ -11,7 +11,7 @@ Vue.use(VueResource)
 Vue.use(VueRouter)
 Vue.use(Antd);
 Vue.config.productionTip = false
-//路由
+
 const routes1 = [
     { path: "/home", component: Home },
     { path: "/index", component: Index },
