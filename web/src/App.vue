@@ -76,7 +76,8 @@
         </div>
       </a-layout-header>
       <a-layout-content
-        :style="{ margin: '24px 16px', padding: '24px', minHeight: '1000px' }"
+        :style="{ margin: '24px 16px', padding: '24px', minHeight: '1000px'}"
+        class="content"
       >
         <router-view></router-view>
       </a-layout-content>
@@ -122,25 +123,24 @@ export default {
   cursor: pointer;
   transition: color 0.3s;
 }
-
 #components-layout-demo-custom-trigger .trigger:hover {
   color: #1890ff;
 }
-
 #components-layout-demo-custom-trigger .logo {
   height: 32px;
   background: rgba(255, 255, 255, 0.062);
   margin: 16px;
 }
-
 #components-layout-demo-custom-trigger .font4 > p {
   font-size: 30px;
   text-shadow: 5px 5px 5px white, 0px 0px 2px black, 2px 2px 3px white;
 }
-
 .colLayout {
   display: flex;
   flex-direction: row;
   justify-content: left;
+}
+.content {
+  background: white;
 }
 </style>

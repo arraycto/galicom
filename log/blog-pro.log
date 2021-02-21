@@ -1,0 +1,4 @@
+2021-02-21 20:11:14.228  INFO 16756 --- [main] c.e.z.galicom.GalicomServerApplication   : Starting GalicomServerApplication using Java 1.8.0_171 on DESKTOP-7D73BLM with PID 16756 (D:\2021-胡奕舟-毕业设计\galicom\target\classes started by 胡奕舟 in D:\2021-胡奕舟-毕业设计\galicom)
+2021-02-21 20:11:14.231  INFO 16756 --- [main] c.e.z.galicom.GalicomServerApplication   : No active profile set, falling back to default profiles: default
+2021-02-21 20:11:15.210  WARN 16756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.edu.zucc.galicom]' package. Please check your configuration.
+2021-02-21 20:11:16.360  INFO 16756 --- [main] c.e.z.galicom.GalicomServerApplication   : Started GalicomServerApplication in 2.889 seconds (JVM running for 5.545)

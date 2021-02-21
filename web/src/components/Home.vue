@@ -1,6 +1,7 @@
 <template>
   <div class="box">
     <img class="img" src="../assets/1.jpg" alt />
+    <li><a href="#">【合集】11eyes 罪与罚与赎的少女</a></li>
   </div>
 </template>
 
@@ -8,15 +9,12 @@
 export default {
   name: 'Home',
   props: {
-
   },
   data () {
     return {
-
     }
   },
   methods: {
-
   }
 }
 </script>
@@ -25,9 +23,11 @@ export default {
   width: 400px;
   height: 300px;
   background-color: white;
-  padding: 10px 5px 8px 15px;
-  margin: 10px;
+  padding: 0px 0px 0px 0px;
+  margin: -5px;
 }
 .img {
+  width: 400px;
+  height: 250px;
 }
 </style>

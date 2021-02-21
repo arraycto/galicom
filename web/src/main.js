@@ -2,7 +2,6 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
-import Index from './components/Index'
 import Home from './components/Home'
 import 'ant-design-vue/dist/antd.css';
 import Antd from 'ant-design-vue';
@@ -14,7 +13,6 @@ Vue.config.productionTip = false
 
 const routes1 = [
     { path: "/home", component: Home },
-    { path: "/index", component: Index },
     { path: '*', redirect: '/home' }
 ]
 const router = new VueRouter({
